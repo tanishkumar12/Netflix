@@ -1,0 +1,44 @@
+.tiles {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 20px;
+  margin-left: 10px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.tile-img {
+  width: 100%;
+  max-height: 200px;
+  margin-right: 10px;
+  object-fit: contain;
+  transition: transform 450ms;
+  -webkit-transition: transform 450ms;
+  -moz-transition: transform 450ms;
+  -ms-transition: transform 450ms;
+  -o-transition: transform 450ms;
+}
+.row-title {
+  color: white;
+  font-size: 1.5em;
+  font-family: Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.tile-img:hover {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+.tile_Large {
+  max-height: 300px;
+}
+
+.row {
+  z-index: 99;
+}

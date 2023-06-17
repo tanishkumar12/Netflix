@@ -1,0 +1,68 @@
+.Navbar {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 10px;
+  z-index: 100;
+  position: fixed;
+  width: 100vw;
+  transition: all 0.5s;
+  color: white;
+  transition: all ease-out 0.5s;
+  -webkit-transition: all ease-out 0s;
+  -moz-transition: all ease-out 0.5s;
+  -ms-transition: all ease-out 0.5s;
+  -o-transition: all ease-out 0.5s;
+  -webkit-transition: all ease-out 0.5s;
+}
+.Navbar > a > img {
+  width: 100px;
+}
+#menu-text {
+  display: flex;
+  list-style-type: none;
+  padding: 1%;
+  opacity: 1;
+}
+
+#menu-text > li {
+  margin-right: 10px;
+  opacity: 1;
+  transition: opacity 0.4s ease-out;
+  -moz-transition: opacity 0.4s ease-out;
+  -webkit-transition: opacity 0.4s ease-out;
+  -o-transition: opacity 0.4s ease-out;
+  -ms-transition: opacity 0.4s ease-out;
+}
+#menu-text > li:hover {
+  opacity: 0.7;
+}
+#logo {
+  margin-left: 20px;
+  margin-right: 3%;
+}
+#search {
+  width: 20px;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: 30px;
+}
+#p-pic {
+  width: 35px;
+  object-fit: contain;
+  margin-right: 30px;
+}
+#p-pic,
+#search:hover {
+  cursor: pointer;
+}
+@media (max-width: 650px) {
+  #menu-text {
+    display: none;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
