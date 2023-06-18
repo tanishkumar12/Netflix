@@ -1,5 +1,5 @@
 Netflix clone made using react.js
-site is hosted at: https://netflix-app-clone.netlify.app/
+site is hosted at: https://net-flix-app-clone.netlify.app/
 
 # Getting Started with Create React App
 
